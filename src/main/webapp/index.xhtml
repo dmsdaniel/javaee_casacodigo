@@ -254,7 +254,7 @@
 			<ul class="vitrineDestaquinho-lista">
 				<ui:repeat value="#{homeBean.ultimosLancamentos()}" var="livro">
 					<li class="livroNaVitrine vitrineDaColecao-produto"><a
-						href="#{request.contextPath}/detalhe-livro.xhtml?id=#{livro.id}"
+						href="#{request.contextPath}/livro-detalhe.xhtml?id=#{livro.id}"
 						class="livroNaVitrine-link" title="#{livro.titulo}">
 							<div class="livroNaVitrine-imagemContainer" role="presentation">
 								<img class="livroNaVitrine-imagem"
@@ -275,7 +275,7 @@
 			<ul class="vitrineDaColecao-lista">
 				<ui:repeat value="#{homeBean.demaisLivros()}" var="livro">
 					<li class="livroNaVitrine vitrineDaColecao-produto"><a
-						href="#{request.contextPath}/detalhe-livro.xhtml?id=#{livro.id}"
+						href="#{request.contextPath}/livro-detalhe.xhtml?id=#{livro.id}"
 						class="livroNaVitrine-link" title="#{livro.titulo}">
 							<div class="livroNaVitrine-imagemContainer" role="presentation">
 								<img class="livroNaVitrine-imagem"
